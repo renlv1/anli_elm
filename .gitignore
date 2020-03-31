@@ -1,12 +1,21 @@
 .DS_Store
-node_modules/
-npm-debug.log
-package-lock.json
-# 忽略使用WebStorm开发时，生成的缓存文件夹
-.idea
-# 忽略使用VSCode开发时，生成的缓存文件夹
-.vscode
-tree.md
-*.idea
+node_modules
+/dist
 
-elm/
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
